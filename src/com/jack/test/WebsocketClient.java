@@ -52,7 +52,7 @@ public class WebsocketClient {
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
-        client.send("hello world1222");
+        client.send("hello world I am webSocketClient");
         client.close();
     }
  
