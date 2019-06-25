@@ -7,7 +7,7 @@ import java.net.Socket;
 
 public class TcpService {
 	public static void main(String[] args) throws IOException {
-		System.out.println("服务端开启！");
+		System.out.println("服务端开启!!!");
 		ServerSocket sc=new ServerSocket(10003);
 		while(true) {
 		Socket s=sc.accept();

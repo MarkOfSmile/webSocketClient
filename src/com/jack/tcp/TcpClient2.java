@@ -11,7 +11,7 @@ public class TcpClient2 {
 	public static void main(String[] args) throws UnknownHostException, IOException {
 		System.out.println("客户端2启动.........");
 		//实现客户端和服务端收发过程，创建客户端对象
-		Socket s=new Socket("192.168.2.155", 1004);
+		Socket s=new Socket("10.110.100.61", 1004);
 		OutputStream out=s.getOutputStream();
 		out.write("服务端我来了".getBytes());
 		InputStream in=s.getInputStream();
