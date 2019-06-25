@@ -4,7 +4,6 @@ public class ken {
 
 	public static void main(String[] args) {
 		//modify in eclipse
-
 	}
 
 }
