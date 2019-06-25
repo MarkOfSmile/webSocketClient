@@ -18,7 +18,7 @@ public class WebsocketClient {
             client = new WebSocketClient(new URI("ws://localhost:9090/websocket"),new Draft_6455()) {
                 @Override
                 public void onOpen(ServerHandshake serverHandshake) {
-                    System.out.println("打开链接");
+                    System.out.println("打开链接!");
                 }
  
                 @Override
